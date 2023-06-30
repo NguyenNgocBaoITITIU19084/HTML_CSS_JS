@@ -69,3 +69,12 @@ nav {
     right: 10%;
     color: white;
 }
+.priceTitle {
+    color: white;
+    position: absolute;
+    border: solid white 2px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    top: 20%;
+    right: 16%;
+}
