@@ -129,3 +129,33 @@ nav {
 .itemWrapper:nth-child(5) .slideBg {
     background-color: rgb(124, 115, 80);
 }
+/* feature css start */
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.feature {
+    border: solid green 2px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.feature .featureImg{
+    height: 50px;
+    width: 50px;
+}
+.feature .featureTitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px;
+}
+.feature .featureDescription {
+    text-transform:capitalize;
+    font-size: 15px;
+}
+/* feature css end */
