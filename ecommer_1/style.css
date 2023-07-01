@@ -159,3 +159,67 @@ nav {
     font-size: 15px;
 }
 /* feature css end */
+
+/* product Section start */
+.sectionProduct {
+    height: 100vw;
+    background-color: whitesmoke;
+    position: relative;
+}
+.sectionProduct img {
+    width: 50%;
+}
+.productDetail {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    padding: 50px;
+    width: 40%;
+}
+.productDetail .productTitle {
+    font-size: 40px;
+    font-weight: 900;
+}
+.productDetail .productDescription {
+    color: gray;
+}
+.productSizes, .productColors {
+    display: flex;
+}
+.productColors .color {
+    border-radius: 5px;
+    background-color: #369e62;
+    height: 32px;
+    width: 32px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.productColors .color:hover {
+    border: solid black 2px;
+    border-radius: 5px;
+}
+.productSizes .size {
+    border: solid black 2px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+.productSizes .size:hover{
+    color: white;
+    background-color: black;
+}
+.productDetail .button {
+    float: right;
+    border: solid black 2px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.productDetail .button:hover {
+    background-color: green;
+    color: white;
+}
+/* product Section end  */
