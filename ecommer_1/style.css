@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 nav {
     background-color: #111;
@@ -44,17 +45,24 @@ nav {
 }
 .menuItem { 
     padding: 10px 40px;
+    margin-top: 8px;
     font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
 }
+.menuItem:hover {
+    border-bottom: solid white 1px;
+    border-radius: 5px;
+}
 .slider {
     background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;
 }
 .sliderWrapper {
     width: 500vw;
     display: flex;
+    transition: all 1.5s ease-in-out;
 }
 .itemWrapper {
     width: 100vw;
@@ -105,4 +113,19 @@ nav {
 }
 .itemWrapper a:hover {
     background-color: #111;
+}
+.itemWrapper:nth-child(1) .slideBg {
+    background-color: #369e62;
+}
+.itemWrapper:nth-child(2) .slideBg {
+    background-color: rebeccapurple;
+}
+.itemWrapper:nth-child(3) .slideBg {
+    background-color: teal;
+}
+.itemWrapper:nth-child(4) .slideBg {
+    background-color: cornflowerblue;
+}
+.itemWrapper:nth-child(5) .slideBg {
+    background-color: rgb(124, 115, 80);
 }
