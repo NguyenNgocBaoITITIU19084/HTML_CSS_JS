@@ -29,6 +29,7 @@ nav {
     border: none;
     background-color: transparent;
     width: 100%;
+    padding: 5px 0px;
 }
 .navSearch img { 
     padding-left: 10px;
@@ -165,7 +166,7 @@ nav {
 
 /* product Section start */
 .sectionProduct {
-    height: 100vw;
+    height: 50vw;
     background-color: whitesmoke;
     position: relative;
 }
@@ -306,3 +307,16 @@ nav {
     border-radius: 5px;
 }
 /* Payment Section Ends */
+/* Gallery Section Start */
+.gallery {
+    padding: 50px;
+    display: flex;
+}
+.galleryItem {
+    flex: 1;
+    padding: 50px;
+}
+.galleryImg {
+    width: 100%;
+}
+/* Gallery Section End */
