@@ -226,3 +226,83 @@ nav {
     color: white;
 }
 /* product Section end  */
+
+/* Payment Section Start */
+.paymentSection {
+    position: absolute;
+    top: 5%;
+    /* left: 0;
+    right: 0;
+    bottom: 0; */
+    right: 25%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    height: 550px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 50px;
+    box-shadow: 2px 0px 24px 4px rgba(0,0,0,0.52);
+    -webkit-box-shadow: 2px 0px 24px 4px rgba(0,0,0,0.52);
+    -moz-box-shadow: 2px 0px 24px 4px rgba(0,0,0,0.52);
+}
+.paymentTitle {
+    text-align: center;
+    font-size: 20px;
+}
+.paymentSection span {
+    color: gray;
+    font-size: 15px;
+}
+.paymentSection .paymentInput {
+    padding: 10px 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: solid black 2px;
+}
+.paymentSection .paymentInput::placeholder{
+    color: black;
+}
+.cardIcons .cardIcon {
+    height: 40px;
+    width: 40px;
+    margin: 0px 10px;
+}
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+}
+.sm {
+    width: 25%;
+}
+.paymentSection button {
+    padding: 5px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #369e62;
+    border: solid black 2px;
+}
+.paymentSection button:hover {
+    color: white;
+    background-color: black;
+}
+.closeButton {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    color: green;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border: solid #369e62 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+/* Payment Section Ends */

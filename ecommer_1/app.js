@@ -122,3 +122,17 @@ productSizes.forEach((size, index) => {
     size.style.color = "white";
   });
 });
+
+const productButton = document.querySelector(
+  ".sectionProduct .productDetail .button"
+);
+
+const closeButton = document.querySelector(".paymentSection .closeButton");
+const paymentSection = document.querySelector(".paymentSection");
+
+productButton.addEventListener("click", () => {
+  paymentSection.style.display = `flex`;
+});
+closeButton.addEventListener("click", () => {
+  paymentSection.style.display = "none";
+});
