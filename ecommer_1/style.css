@@ -351,3 +351,69 @@ nav {
     color: black;
 }
 /* new season end */
+/* footer start */
+.footer {
+    display: flex;
+    margin-top: 50px;
+}
+.footerLeft {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.fMenuTitle {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.fMenuList {
+    padding: 0;
+    list-style: none;
+}
+.fMenuList .item {
+    margin-bottom: 10px;
+    color: gray;
+}
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.fIcons {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.fIcons .icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footerRightMenu {
+    margin: 5px;
+}
+.fMenuTitle {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.fMail .fInput {
+    padding: 5px 15px;
+    border: solid green 2px;
+    border-radius: 5px;
+}
+.fMail .fButton {
+    padding: 5px 15px;
+    background-color: #369e62;
+    border-radius: 5px;
+    border: solid black 2px;
+    color: white;
+    cursor: pointer;
+}
+.fMail .fButton:hover {
+    background-color: #111;
+}
+/* footer end */
