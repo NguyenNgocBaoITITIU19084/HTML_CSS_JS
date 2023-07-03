@@ -320,3 +320,34 @@ nav {
     width: 100%;
 }
 /* Gallery Section End */
+
+/* new season start */
+.newSeason {
+    display: flex;
+}
+.nsItem {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.nsImg {
+    width: 100%;
+}
+.nsButton {
+    padding: 15px 15px;
+    background-color: #369e62;
+    border: solid white 2px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.nsButton:hover {
+    background-color: white;
+    color: black;
+}
+/* new season end */
