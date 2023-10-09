@@ -3,36 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Web</title>
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Roboto:ital,wght@0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <title>Movie Web</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="navbar-container">
-            <div class="logo-container">
-                <span class="logo">flakes</span>
+   <div class="navbar">
+    <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo">flaker</h1></div>
+        <div class="menu-container">
+            <ul class="menu-list-items">
+                <li class="item active">Home</li>
+                <li class="item">Movies</li>
+                <li class="item">Series</li>
+                <li class="item">Popular</li>
+                <li class="item">Trends</li>
+            </ul>
+        </div>
+        <div class="profile-container">
+            <img class="profile-img" src="./image/profile.jpg" alt="profile-img">
+            <div class="profile-text-container">
+                <span>Bao Nguyen</span>
+                <i class="fa-solid fa-caret-down"></i>
+                
             </div>
-            <div class="menu-container">
-                <div class="list-items">
-                    <ul>
-                        <li class="item active">home</li>
-                        <li class="item">movies</li>
-                        <li class="item">movies</li>
-                        <li class="item">popular</li>
-                        <li class="item">trends</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="profile-container">
-                <img src="./img/342003259_1575084746333284_5012432429789281187_n.jpg" alt="profile-img" class="profile-image">
-                <div class="profile-text">
-                    <span>profile</span>
-                </div>
+            <div class="toggle">
+                <i class="fa-solid fa-moon toggle-icon"></i>
+                <i class="fa-solid fa-sun toggle-icon"></i>
+                <div class="toggle-button"></div>
             </div>
         </div>
     </div>
-    <div class="sidebar"></div>
-    <script src="app.js"></script>
+   </div>
+   <div class="slidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+   </div>
+   <div class="container">
+        <div class="content-container">
+            asdasdasd
+        </div>
+   </div>
 </body>
 </html>
